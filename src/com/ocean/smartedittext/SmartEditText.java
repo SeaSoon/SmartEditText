@@ -59,7 +59,7 @@ public class SmartEditText extends EditText{
 	private int height;
 	private float ratioOut = 0f;
 	private float ratioIn = 0f;
-	private float INCREMENT = 0.05f;//增量，控制动画速度
+	private float INCREMENT = 0.1f;//增量，控制动画速度
 	
 	private boolean isLableOut = false;//标签是否在外面
 	
@@ -77,7 +77,7 @@ public class SmartEditText extends EditText{
 	private float mainTextSize = 30f;//由getText获得的是像素值
 	private float cursorSize = mainTextSize + mainTextSize * 3 / 4;
 	private String hintText= "test";
-	private int lineHeight = 1;//控制线的高度
+	private int lineHeight = 3;//控制线的高度
 	private float textMarginTop = 12.5f;//控制字体的绘制位置
 	
 	public enum AnimateMode{
